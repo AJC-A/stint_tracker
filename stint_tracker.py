@@ -34,7 +34,6 @@ def acMain(ac_version):
     ac.setPosition(l_laptime, 3, 60)
 
     with open('stintoutputfile.csv', 'a') as f:
-        f.write("Start of Stint\n")
         f.write("Lap Number, Lap Time\n")
 
     return "stint_tracker"
